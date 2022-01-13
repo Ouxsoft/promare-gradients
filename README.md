@@ -24,7 +24,7 @@ background: rgb(3,3,3);
 background: linear-gradient(90deg, rgba(3,3,3,1) 0%, rgba(68,64,102,1) 100%);
 }
 
-.beige-teal {
+.beige-to-teal {
 background: rgb(53,157,142);
 background: linear-gradient(90deg, rgba(53,157,142,1) 0%, rgba(177,177,153,1) 100%);
 } 
