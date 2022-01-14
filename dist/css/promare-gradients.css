@@ -3,6 +3,33 @@
  * Copyright 2020-2021 Ouxsoft
  * Licensed under MIT (https://raw.githubusercontent.com/Ouxsoft/Promare-Gradients/master/LICENSE)
  */
+.bg-neon-green-100 {
+  background: #d7ffd0; }
+
+.bg-neon-green-200 {
+  background: #b0ffa1; }
+
+.bg-neon-green-300 {
+  background: #88ff72; }
+
+.bg-neon-green-400 {
+  background: #61ff43; }
+
+.bg-neon-green-500 {
+  background: #39FF14; }
+
+.bg-neon-green-600 {
+  background: #2ecc10; }
+
+.bg-neon-green-700 {
+  background: #22990c; }
+
+.bg-neon-green-800 {
+  background: #176608; }
+
+.bg-neon-green-900 {
+  background: #0b3304; }
+
 .bg-neon-green {
   background: #39FF14; }
 

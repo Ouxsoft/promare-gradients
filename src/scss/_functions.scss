@@ -1,0 +1,9 @@
+// mixture of a color with white
+@function tint-color($color, $weight) {
+  @return mix(white, $color, $weight);
+}
+
+// a mixture of a color with black
+@function shade-color($color, $weight) {
+  @return mix(black, $color, $weight);
+}

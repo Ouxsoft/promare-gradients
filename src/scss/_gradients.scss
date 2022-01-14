@@ -2,6 +2,10 @@
 @import "mixins";
 @import "degrees";
 
+@each $color-key, $color-value in $neon-greens {
+  @include bg-color($color-key, $color-value);
+}
+
 @each $color-key, $color-value in $colors {
   @include bg-color($color-key, $color-value);
 }
@@ -13,4 +17,7 @@
     }
   }
 }
+
+
+
 
