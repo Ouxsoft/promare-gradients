@@ -1,0 +1,376 @@
+// neon color palette
+
+// Green
+$neon-green: #39FF14 !default;
+$ufo-green: #7FFF00 !default;
+$electric-lime: #CCFF00 !default;
+
+// Red
+$neon-red: #FF3131 !default;
+$electric-orange: #FF5E00 !default;
+
+// Yellow
+$neon-yellow: #FFF01F !default;
+$absinthe: #E7EE4F !default;
+$chartreuse-yellow: #DFFF00 !default;
+
+// Pink
+$neon-pink: #FF44CC !default;
+$neon-magenta: #EA00FF !default;
+$plastic-pink: #FF1493 !default;
+
+// Purple
+$neon-purple: #BC13FE !default;
+$proton-purple: #8A2BE2 !default;
+
+// Blue
+$neon-blue: #1F51FF !default;
+$electric-cyan: #0FF0FC !default;
+
+$colors: (
+  "neon-green": $neon-green,
+  "ufo-green": $ufo-green,
+  "electric-lime": $electric-lime,
+  "neon-red": $neon-red,
+  "electric-orange": $electric-orange,
+  "neon-yellow" : $neon-yellow,
+  "absinthe": $absinthe,
+  "chartreuse-yellow": $chartreuse-yellow,
+  "neon-pink": $neon-pink,
+  "neon-magenta": $neon-magenta,
+  "plastic-pink": $plastic-pink,
+  "neon-purple": $neon-purple,
+  "proton-purple": $proton-purple,
+  "neon-blue": $neon-blue,
+  "electric-cyan": $electric-cyan,
+) !default;
+
+$neon-green-100: tint-color($neon-green, 80%) !default;
+$neon-green-200: tint-color($neon-green, 60%) !default;
+$neon-green-300: tint-color($neon-green, 40%) !default;
+$neon-green-400: tint-color($neon-green, 20%) !default;
+$neon-green-500: $neon-green !default;
+$neon-green-600: shade-color($neon-green, 20%) !default;
+$neon-green-700: shade-color($neon-green, 40%) !default;
+$neon-green-800: shade-color($neon-green, 60%) !default;
+$neon-green-900: shade-color($neon-green, 80%) !default;
+
+$neon-greens: (
+  "neon-green-100": $neon-green-100,
+  "neon-green-200": $neon-green-200,
+  "neon-green-300": $neon-green-300,
+  "neon-green-400": $neon-green-400,
+  "neon-green-500": $neon-green-500,
+  "neon-green-600": $neon-green-600,
+  "neon-green-700": $neon-green-700,
+  "neon-green-800": $neon-green-800,
+  "neon-green-900": $neon-green-900
+) !default;
+
+$ufo-green-100: tint-color($ufo-green, 80%) !default;
+$ufo-green-200: tint-color($ufo-green, 60%) !default;
+$ufo-green-300: tint-color($ufo-green, 40%) !default;
+$ufo-green-400: tint-color($ufo-green, 20%) !default;
+$ufo-green-500: $ufo-green !default;
+$ufo-green-600: shade-color($ufo-green, 20%) !default;
+$ufo-green-700: shade-color($ufo-green, 40%) !default;
+$ufo-green-800: shade-color($ufo-green, 60%) !default;
+$ufo-green-900: shade-color($ufo-green, 80%) !default;
+
+$ufo-greens: (
+  "ufo-green-100": $ufo-green-100,
+  "ufo-green-200": $ufo-green-200,
+  "ufo-green-300": $ufo-green-300,
+  "ufo-green-400": $ufo-green-400,
+  "ufo-green-500": $ufo-green-500,
+  "ufo-green-600": $ufo-green-600,
+  "ufo-green-700": $ufo-green-700,
+  "ufo-green-800": $ufo-green-800,
+  "ufo-green-900": $ufo-green-900
+) !default;
+
+$electric-lime-100: tint-color($electric-lime, 80%) !default;
+$electric-lime-200: tint-color($electric-lime, 60%) !default;
+$electric-lime-300: tint-color($electric-lime, 40%) !default;
+$electric-lime-400: tint-color($electric-lime, 20%) !default;
+$electric-lime-500: $electric-lime !default;
+$electric-lime-600: shade-color($electric-lime, 20%) !default;
+$electric-lime-700: shade-color($electric-lime, 40%) !default;
+$electric-lime-800: shade-color($electric-lime, 60%) !default;
+$electric-lime-900: shade-color($electric-lime, 80%) !default;
+
+$electric-limes: (
+        "electric-lime-100": $electric-lime-100,
+        "electric-lime-200": $electric-lime-200,
+        "electric-lime-300": $electric-lime-300,
+        "electric-lime-400": $electric-lime-400,
+        "electric-lime-500": $electric-lime-500,
+        "electric-lime-600": $electric-lime-600,
+        "electric-lime-700": $electric-lime-700,
+        "electric-lime-800": $electric-lime-800,
+        "electric-lime-900": $electric-lime-900
+) !default;
+
+$neon-red-100: tint-color($neon-red, 80%) !default;
+$neon-red-200: tint-color($neon-red, 60%) !default;
+$neon-red-300: tint-color($neon-red, 40%) !default;
+$neon-red-400: tint-color($neon-red, 20%) !default;
+$neon-red-500: $neon-red !default;
+$neon-red-600: shade-color($neon-red, 20%) !default;
+$neon-red-700: shade-color($neon-red, 40%) !default;
+$neon-red-800: shade-color($neon-red, 60%) !default;
+$neon-red-900: shade-color($neon-red, 80%) !default;
+
+$neon-reds: (
+        "neon-red-100": $neon-red-100,
+        "neon-red-200": $neon-red-200,
+        "neon-red-300": $neon-red-300,
+        "neon-red-400": $neon-red-400,
+        "neon-red-500": $neon-red-500,
+        "neon-red-600": $neon-red-600,
+        "neon-red-700": $neon-red-700,
+        "neon-red-800": $neon-red-800,
+        "neon-red-900": $neon-red-900
+) !default;
+
+$electric-orange-100: tint-color($electric-orange, 80%) !default;
+$electric-orange-200: tint-color($electric-orange, 60%) !default;
+$electric-orange-300: tint-color($electric-orange, 40%) !default;
+$electric-orange-400: tint-color($electric-orange, 20%) !default;
+$electric-orange-500: $electric-orange !default;
+$electric-orange-600: shade-color($electric-orange, 20%) !default;
+$electric-orange-700: shade-color($electric-orange, 40%) !default;
+$electric-orange-800: shade-color($electric-orange, 60%) !default;
+$electric-orange-900: shade-color($electric-orange, 80%) !default;
+
+$electric-oranges: (
+        "electric-orange-100": $electric-orange-100,
+        "electric-orange-200": $electric-orange-200,
+        "electric-orange-300": $electric-orange-300,
+        "electric-orange-400": $electric-orange-400,
+        "electric-orange-500": $electric-orange-500,
+        "electric-orange-600": $electric-orange-600,
+        "electric-orange-700": $electric-orange-700,
+        "electric-orange-800": $electric-orange-800,
+        "electric-orange-900": $electric-orange-900
+) !default;
+
+$neon-yellow-100: tint-color($neon-yellow, 80%) !default;
+$neon-yellow-200: tint-color($neon-yellow, 60%) !default;
+$neon-yellow-300: tint-color($neon-yellow, 40%) !default;
+$neon-yellow-400: tint-color($neon-yellow, 20%) !default;
+$neon-yellow-500: $neon-yellow !default;
+$neon-yellow-600: shade-color($neon-yellow, 20%) !default;
+$neon-yellow-700: shade-color($neon-yellow, 40%) !default;
+$neon-yellow-800: shade-color($neon-yellow, 60%) !default;
+$neon-yellow-900: shade-color($neon-yellow, 80%) !default;
+
+$neon-yellows: (
+        "neon-yellow-100": $neon-yellow-100,
+        "neon-yellow-200": $neon-yellow-200,
+        "neon-yellow-300": $neon-yellow-300,
+        "neon-yellow-400": $neon-yellow-400,
+        "neon-yellow-500": $neon-yellow-500,
+        "neon-yellow-600": $neon-yellow-600,
+        "neon-yellow-700": $neon-yellow-700,
+        "neon-yellow-800": $neon-yellow-800,
+        "neon-yellow-900": $neon-yellow-900
+) !default;
+
+$absinthe-100: tint-color($absinthe, 80%) !default;
+$absinthe-200: tint-color($absinthe, 60%) !default;
+$absinthe-300: tint-color($absinthe, 40%) !default;
+$absinthe-400: tint-color($absinthe, 20%) !default;
+$absinthe-500: $absinthe !default;
+$absinthe-600: shade-color($absinthe, 20%) !default;
+$absinthe-700: shade-color($absinthe, 40%) !default;
+$absinthe-800: shade-color($absinthe, 60%) !default;
+$absinthe-900: shade-color($absinthe, 80%) !default;
+
+$absinthes: (
+        "absinthe-100": $absinthe-100,
+        "absinthe-200": $absinthe-200,
+        "absinthe-300": $absinthe-300,
+        "absinthe-400": $absinthe-400,
+        "absinthe-500": $absinthe-500,
+        "absinthe-600": $absinthe-600,
+        "absinthe-700": $absinthe-700,
+        "absinthe-800": $absinthe-800,
+        "absinthe-900": $absinthe-900
+) !default;
+
+$chartreuse-yellow-100: tint-color($chartreuse-yellow, 80%) !default;
+$chartreuse-yellow-200: tint-color($chartreuse-yellow, 60%) !default;
+$chartreuse-yellow-300: tint-color($chartreuse-yellow, 40%) !default;
+$chartreuse-yellow-400: tint-color($chartreuse-yellow, 20%) !default;
+$chartreuse-yellow-500: $chartreuse-yellow !default;
+$chartreuse-yellow-600: shade-color($chartreuse-yellow, 20%) !default;
+$chartreuse-yellow-700: shade-color($chartreuse-yellow, 40%) !default;
+$chartreuse-yellow-800: shade-color($chartreuse-yellow, 60%) !default;
+$chartreuse-yellow-900: shade-color($chartreuse-yellow, 80%) !default;
+
+$chartreuse-yellows: (
+        "chartreuse-yellow-100": $chartreuse-yellow-100,
+        "chartreuse-yellow-200": $chartreuse-yellow-200,
+        "chartreuse-yellow-300": $chartreuse-yellow-300,
+        "chartreuse-yellow-400": $chartreuse-yellow-400,
+        "chartreuse-yellow-500": $chartreuse-yellow-500,
+        "chartreuse-yellow-600": $chartreuse-yellow-600,
+        "chartreuse-yellow-700": $chartreuse-yellow-700,
+        "chartreuse-yellow-800": $chartreuse-yellow-800,
+        "chartreuse-yellow-900": $chartreuse-yellow-900
+) !default;
+
+$neon-pink-100: tint-color($neon-pink, 80%) !default;
+$neon-pink-200: tint-color($neon-pink, 60%) !default;
+$neon-pink-300: tint-color($neon-pink, 40%) !default;
+$neon-pink-400: tint-color($neon-pink, 20%) !default;
+$neon-pink-500: $neon-pink !default;
+$neon-pink-600: shade-color($neon-pink, 20%) !default;
+$neon-pink-700: shade-color($neon-pink, 40%) !default;
+$neon-pink-800: shade-color($neon-pink, 60%) !default;
+$neon-pink-900: shade-color($neon-pink, 80%) !default;
+
+$neon-pinks: (
+        "neon-pink-100": $neon-pink-100,
+        "neon-pink-200": $neon-pink-200,
+        "neon-pink-300": $neon-pink-300,
+        "neon-pink-400": $neon-pink-400,
+        "neon-pink-500": $neon-pink-500,
+        "neon-pink-600": $neon-pink-600,
+        "neon-pink-700": $neon-pink-700,
+        "neon-pink-800": $neon-pink-800,
+        "neon-pink-900": $neon-pink-900
+) !default;
+
+$neon-magenta-100: tint-color($neon-magenta, 80%) !default;
+$neon-magenta-200: tint-color($neon-magenta, 60%) !default;
+$neon-magenta-300: tint-color($neon-magenta, 40%) !default;
+$neon-magenta-400: tint-color($neon-magenta, 20%) !default;
+$neon-magenta-500: $neon-magenta !default;
+$neon-magenta-600: shade-color($neon-magenta, 20%) !default;
+$neon-magenta-700: shade-color($neon-magenta, 40%) !default;
+$neon-magenta-800: shade-color($neon-magenta, 60%) !default;
+$neon-magenta-900: shade-color($neon-magenta, 80%) !default;
+
+$neon-magentas: (
+        "neon-magenta-100": $neon-magenta-100,
+        "neon-magenta-200": $neon-magenta-200,
+        "neon-magenta-300": $neon-magenta-300,
+        "neon-magenta-400": $neon-magenta-400,
+        "neon-magenta-500": $neon-magenta-500,
+        "neon-magenta-600": $neon-magenta-600,
+        "neon-magenta-700": $neon-magenta-700,
+        "neon-magenta-800": $neon-magenta-800,
+        "neon-magenta-900": $neon-magenta-900
+) !default;
+
+$plastic-pink-100: tint-color($plastic-pink, 80%) !default;
+$plastic-pink-200: tint-color($plastic-pink, 60%) !default;
+$plastic-pink-300: tint-color($plastic-pink, 40%) !default;
+$plastic-pink-400: tint-color($plastic-pink, 20%) !default;
+$plastic-pink-500: $plastic-pink !default;
+$plastic-pink-600: shade-color($plastic-pink, 20%) !default;
+$plastic-pink-700: shade-color($plastic-pink, 40%) !default;
+$plastic-pink-800: shade-color($plastic-pink, 60%) !default;
+$plastic-pink-900: shade-color($plastic-pink, 80%) !default;
+
+$plastic-pinks: (
+        "plastic-pink-100": $plastic-pink-100,
+        "plastic-pink-200": $plastic-pink-200,
+        "plastic-pink-300": $plastic-pink-300,
+        "plastic-pink-400": $plastic-pink-400,
+        "plastic-pink-500": $plastic-pink-500,
+        "plastic-pink-600": $plastic-pink-600,
+        "plastic-pink-700": $plastic-pink-700,
+        "plastic-pink-800": $plastic-pink-800,
+        "plastic-pink-900": $plastic-pink-900
+) !default;
+
+$plastic-pink-100: tint-color($plastic-pink, 80%) !default;
+$plastic-pink-200: tint-color($plastic-pink, 60%) !default;
+$plastic-pink-300: tint-color($plastic-pink, 40%) !default;
+$plastic-pink-400: tint-color($plastic-pink, 20%) !default;
+$plastic-pink-500: $plastic-pink !default;
+$plastic-pink-600: shade-color($plastic-pink, 20%) !default;
+$plastic-pink-700: shade-color($plastic-pink, 40%) !default;
+$plastic-pink-800: shade-color($plastic-pink, 60%) !default;
+$plastic-pink-900: shade-color($plastic-pink, 80%) !default;
+
+$plastic-pinks: (
+        "plastic-pink-100": $plastic-pink-100,
+        "plastic-pink-200": $plastic-pink-200,
+        "plastic-pink-300": $plastic-pink-300,
+        "plastic-pink-400": $plastic-pink-400,
+        "plastic-pink-500": $plastic-pink-500,
+        "plastic-pink-600": $plastic-pink-600,
+        "plastic-pink-700": $plastic-pink-700,
+        "plastic-pink-800": $plastic-pink-800,
+        "plastic-pink-900": $plastic-pink-900
+) !default;
+
+$proton-purple-100: tint-color($proton-purple, 80%) !default;
+$proton-purple-200: tint-color($proton-purple, 60%) !default;
+$proton-purple-300: tint-color($proton-purple, 40%) !default;
+$proton-purple-400: tint-color($proton-purple, 20%) !default;
+$proton-purple-500: $proton-purple !default;
+$proton-purple-600: shade-color($proton-purple, 20%) !default;
+$proton-purple-700: shade-color($proton-purple, 40%) !default;
+$proton-purple-800: shade-color($proton-purple, 60%) !default;
+$proton-purple-900: shade-color($proton-purple, 80%) !default;
+
+$proton-purples: (
+        "proton-purple-100": $proton-purple-100,
+        "proton-purple-200": $proton-purple-200,
+        "proton-purple-300": $proton-purple-300,
+        "proton-purple-400": $proton-purple-400,
+        "proton-purple-500": $proton-purple-500,
+        "proton-purple-600": $proton-purple-600,
+        "proton-purple-700": $proton-purple-700,
+        "proton-purple-800": $proton-purple-800,
+        "proton-purple-900": $proton-purple-900
+) !default;
+
+$neon-blue-100: tint-color($neon-blue, 80%) !default;
+$neon-blue-200: tint-color($neon-blue, 60%) !default;
+$neon-blue-300: tint-color($neon-blue, 40%) !default;
+$neon-blue-400: tint-color($neon-blue, 20%) !default;
+$neon-blue-500: $neon-blue !default;
+$neon-blue-600: shade-color($neon-blue, 20%) !default;
+$neon-blue-700: shade-color($neon-blue, 40%) !default;
+$neon-blue-800: shade-color($neon-blue, 60%) !default;
+$neon-blue-900: shade-color($neon-blue, 80%) !default;
+
+$neon-blues: (
+        "neon-blue-100": $neon-blue-100,
+        "neon-blue-200": $neon-blue-200,
+        "neon-blue-300": $neon-blue-300,
+        "neon-blue-400": $neon-blue-400,
+        "neon-blue-500": $neon-blue-500,
+        "neon-blue-600": $neon-blue-600,
+        "neon-blue-700": $neon-blue-700,
+        "neon-blue-800": $neon-blue-800,
+        "neon-blue-900": $neon-blue-900
+) !default;
+
+$electric-cyan-100: tint-color($electric-cyan, 80%) !default;
+$electric-cyan-200: tint-color($electric-cyan, 60%) !default;
+$electric-cyan-300: tint-color($electric-cyan, 40%) !default;
+$electric-cyan-400: tint-color($electric-cyan, 20%) !default;
+$electric-cyan-500: $electric-cyan !default;
+$electric-cyan-600: shade-color($electric-cyan, 20%) !default;
+$electric-cyan-700: shade-color($electric-cyan, 40%) !default;
+$electric-cyan-800: shade-color($electric-cyan, 60%) !default;
+$electric-cyan-900: shade-color($electric-cyan, 80%) !default;
+
+$electric-cyans: (
+        "electric-cyan-100": $electric-cyan-100,
+        "electric-cyan-200": $electric-cyan-200,
+        "electric-cyan-300": $electric-cyan-300,
+        "electric-cyan-400": $electric-cyan-400,
+        "electric-cyan-500": $electric-cyan-500,
+        "electric-cyan-600": $electric-cyan-600,
+        "electric-cyan-700": $electric-cyan-700,
+        "electric-cyan-800": $electric-cyan-800,
+        "electric-cyan-900": $electric-cyan-900
+) !default;

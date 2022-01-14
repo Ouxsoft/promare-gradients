@@ -1,0 +1,16 @@
+@import "neon-colors";
+@import "mixins";
+@import "degrees";
+
+@each $color-key, $color-value in $colors {
+  @include bg-color($color-key, $color-value);
+}
+
+@each $color-start-key, $color-start-value in $colors {
+  @each $color-end-key, $color-end-value in $colors {
+    @each $degree-key, $degree-value in $degrees {
+      @include bg-gradient($color-start-key, $color-start-value, $color-end-key, $color-end-value, $degree-key, $degree-value);
+    }
+  }
+}
+
