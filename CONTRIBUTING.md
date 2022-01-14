@@ -3,7 +3,7 @@
 Docker can be used to build the dist folder. 
 ```shell script
 docker build --tag promare:latest -f Dockerfile .
-docker run -it --mount type=bind,source="$(pwd)"/,target=/usr/src/app/ promare:latest npm run scss
+docker run -it --mount type=bind,source="$(pwd)"/,target=/usr/src/app/ promare:latest npm run css
 ```
 
 <!--
