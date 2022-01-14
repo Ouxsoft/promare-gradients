@@ -1,5 +1,5 @@
 # Promare Gradients
-A collection of gradients found in the [Promare](https://en.wikipedia.org/wiki/Promare) converted for use on the web. 
+A collection of gradients found in [Promare](https://en.wikipedia.org/wiki/Promare) converted for use on the web. 
 
 Please feel free to open a PR to add to the list or build a ML bot to generate more.
 
