@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node server.js",
     "css": "npm-run-all css-compile css-minify",
-    "css-compile": "node-sass --output dist/css src/scss/promare-gradients.scss --output-style nested",
+    "css-compile": "node-sass --precision 1 --output dist/css src/scss/promare-gradients.scss --output-style nested",
     "css-minify": "cleancss -o dist/css/promare-gradients.min.css dist/css/promare-gradients.css"
   },
   "dependencies": {
