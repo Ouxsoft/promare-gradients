@@ -1,8 +1,9 @@
 # Promare Gradient
+![SASS](https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Promare Gradients makes adding **neon colors** and gradients to web pages easy.
-It's a tiny CSS library made to standardize reuse of neon colors on the web.
+Promare Gradients standardizes the use of **neon colors** on the web for backgrounds. 
+It's a tiny stylesheet library that comes with over **25,000** different neon background combinations.
 
 ## Why?
 Neon colors have a high chroma. When they are contrasted they psychologically grab the users' attention[^1].
@@ -26,7 +27,6 @@ There are sixteen (16) base colors that were carefully chosen to embody the neon
 ```
  
 #### Shades and Tones
- 
 Each neon color comes in a regular form, two **shades** (`*-0`, `*-25`), 
 and two **tints** (`*-75`, `*-100`). 
 These classes can be used directly to color backgrounds a solid color:
@@ -51,19 +51,11 @@ These classes can be used directly to color backgrounds a solid color:
 | .bg-grayscale  | .bg-grayscale-0  | .bg-grayscale-25  | .bg-grayscale-75  | .bg-grayscale-100  | 
 
 #### Gradients
+Easily add neon gradients to your web page.
 
-Any two of the above shades and tones can be combined to form a background gradient using one of the
-following four directions:
-
-| Suffix | Direction | 
-| ---    | ---       |
-| *-nw   | Northwest |
-| *-ne   | Northeast |
-| *-sw   | Southeast |
-| *-sw   | Southwest |
+Any two of the above shades and tones combine form a background gradient. 
 
 **Example** 
-
 ```html
 <div class=".bg-blue-to-lime-75-nw">
     Blue to bright lime gradient moving in a top left direction
@@ -73,8 +65,17 @@ following four directions:
 </div>
 ```
 
-That's over **25,000** different neon background combinations to help create a dramatic multicolored glowing 
-web presence.
+##### Directions
+When adding a gradient the last suffix is defines the direction of the gradient.
+
+| Suffix | Direction | 
+| ---    | ---       |
+| *-nw   | Northwest |
+| *-ne   | Northeast |
+| *-sw   | Southeast |
+| *-sw   | Southwest |
+
+Create your own dramatic multicolored glowing web presence.
 
 ## Acknowledgements
 Promare Gradients derives is name from the movie [Promare](https://en.wikipedia.org/wiki/Promare) which features rich 
