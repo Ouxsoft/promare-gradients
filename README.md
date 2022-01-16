@@ -1,6 +1,7 @@
 # Promare Gradient
 ![SASS](https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white)
 [![Latest Stable Version](https://img.shields.io/packagist/v/Ouxsoft/promare-gradients.svg)](https://packagist.org/packages/Ouxsoft/promare-gradients)
+[![Total Downloads](https://img.shields.io/packagist/dt/Ouxsoft/promare-gradients.svg)](https://packagist.org/packages/Ouxsoft/promare-gradients)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 Promare Gradients standardizes the use of **neon colors** on the web for backgrounds. 
