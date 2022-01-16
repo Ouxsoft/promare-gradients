@@ -5,7 +5,6 @@
 Promare Gradients standardizes the use of **neon colors** on the web for backgrounds. 
 It's a tiny stylesheet library that comes with over **25,000** different neon background combinations.
 
-## Why?
 Neon colors have a high chroma. When they are contrasted they psychologically grab the users' attention[^1].
 It's no wonder why neon signs have been used for call to actions.
 

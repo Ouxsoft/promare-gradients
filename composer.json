@@ -1,0 +1,22 @@
+{
+  "name": "ouxsoft/promare-gradients",
+  "description": "Promare Gradients standardizes the use of neon colors on the web for backgrounds..",
+  "keywords": [
+    "neon",
+    "css",
+    "sass",
+    "gradients",
+    "web"
+  ],
+  "homepage": "https://ouxsoft.com",
+  "authors": [
+    {
+      "name": "Ouxsoft",
+      "email": "contact@ouxsoft.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/ouxsoft/promare-gradients/issues"
+  },
+  "license": "Apache-2.0"
+}
