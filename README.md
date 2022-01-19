@@ -81,7 +81,7 @@ The last suffix in the class defines the direction of the gradient. The below op
 | *-sw   | Southwest |
 
 ## Acknowledgements
-Promare Gradients derives is name from the movie [Promare](https://en.wikipedia.org/wiki/Promare) which features rich 
+Promare Gradients derives its name from the movie [Promare](https://en.wikipedia.org/wiki/Promare) which features rich 
 neon gradient coloring and inspired this package.
 
 
