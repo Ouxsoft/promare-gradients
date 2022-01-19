@@ -1,4 +1,4 @@
-# Promare Gradient
+# Promare Gradients
 ![SASS](https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white)
 [![npm version](https://img.shields.io/npm/v/@ouxsoft/promare-gradients)](https://www.npmjs.com/package/@ouxsoft/promare-gradients)
 [![Latest Stable Version](https://img.shields.io/packagist/v/Ouxsoft/promare-gradients.svg)](https://packagist.org/packages/Ouxsoft/promare-gradients) 
