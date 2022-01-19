@@ -4,5 +4,6 @@ services:
     build: .
     volumes:
       - .:/usr/src/app/
+      - .npmrc:/usr/local/etc/npmrc
     ports:
       - "3000:3000"

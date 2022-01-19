@@ -1,5 +1,6 @@
 # Promare Gradient
 ![SASS](https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white)
+[![npm version](https://img.shields.io/npm/v/@ouxsoft/promare-gradients)](https://www.npmjs.com/package/@ouxsoft/promare-gradients)
 [![Latest Stable Version](https://img.shields.io/packagist/v/Ouxsoft/promare-gradients.svg)](https://packagist.org/packages/Ouxsoft/promare-gradients) 
 [![Total Downloads](https://img.shields.io/packagist/dt/Ouxsoft/promare-gradients.svg)](https://packagist.org/packages/Ouxsoft/promare-gradients)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
@@ -11,9 +12,12 @@ Neon colors have a high chroma. When they are contrasted they psychologically gr
 It's no wonder why neon signs have been used for call to actions.
 
 ## Quick start
-Get started with your own dramatic multicolored glowing web presence:
+Here are some ways to start your own dramatic neon colored web presence: 
 
-*  Clone the repo: `git clone https://github.com/Ouxsoft/promare-gradients.git`
+- [Download the latest release](https://github.com/Ouxsoft/promare-gradients/releases)
+- Clone the repo: `git clone https://github.com/Ouxsoft/promare-gradients.git`
+- Install with [npm](https://www.npmjs.com/): `npm i @ouxsoft/promare-gradients`
+- Install with [Composer](https://getcomposer.org/): `composer require ouxsoft/promare-gradients`
 
 ### Usage
 

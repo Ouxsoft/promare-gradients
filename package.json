@@ -8,7 +8,7 @@
     "url": "git://github.com/Ouxsoft/promare-gradients.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://registry.npmjs.org"
   },
   "keywords": [
     "neon",
