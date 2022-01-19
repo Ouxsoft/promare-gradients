@@ -66,7 +66,7 @@ Combine any two of the above shades and tones to add a neon background gradient 
 </div>
 ```
 
-##### Directions
+##### Direction of Gradient 
 The last suffix in the class defines the direction of the gradient. The below options are available:
 
 | Suffix | Direction | 
