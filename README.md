@@ -4,19 +4,21 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/Ouxsoft/promare-gradients.svg)](https://packagist.org/packages/Ouxsoft/promare-gradients)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-Promare Gradients standardizes the use of **neon colors** on the web for backgrounds. 
+Promare Gradients standardizes the use of **neon colors** for web backgrounds. 
 It's a tiny stylesheet library that comes with over **25,000** different neon background combinations.
 
 Neon colors have a high chroma. When they are contrasted they psychologically grab the users' attention[^1].
 It's no wonder why neon signs have been used for call to actions.
 
 ## Quick start
+Get started with your own dramatic multicolored glowing web presence:
+
 *  Clone the repo: `git clone https://github.com/Ouxsoft/promare-gradients.git`
 
 ### Usage
 
 #### Neon Colors
-There are sixteen (16) base colors that were carefully chosen to embody the neon lights:
+Promare Gradients features sixteen (16) base colors that were carefully chosen to embody neon lights:
  
 `green`, `ufo`, `lime`, `red`, `orange`, `yellow`, `absinthe`, `chartreuse`, `pink`,
  `magenta`, `plastic`, `purple`, `proton`, `blue`, `cyan`, and `grayscale`.
@@ -30,7 +32,7 @@ There are sixteen (16) base colors that were carefully chosen to embody the neon
 #### Shades and Tones
 Each neon color comes in a regular form, two **shades** (`*-0`, `*-25`), 
 and two **tints** (`*-75`, `*-100`). 
-These classes can be used directly to color backgrounds a solid color:
+These classes color backgrounds a solid neon color:
 
 | Regular        | Darkest          | Dark              | Light             | Lightest           |
 | ---            | ---              | ---               | ---               | ---                | 
@@ -52,9 +54,7 @@ These classes can be used directly to color backgrounds a solid color:
 | .bg-grayscale  | .bg-grayscale-0  | .bg-grayscale-25  | .bg-grayscale-75  | .bg-grayscale-100  | 
 
 #### Gradients
-Easily add neon gradients to your web page.
-
-Any two of the above shades and tones combine form a background gradient. 
+Combine any two of the above shades and tones to add a neon background gradient to your web page. 
 
 **Example** 
 ```html
@@ -67,7 +67,7 @@ Any two of the above shades and tones combine form a background gradient.
 ```
 
 ##### Directions
-When adding a gradient the last suffix is defines the direction of the gradient.
+The last suffix in the class defines the direction of the gradient. The below options are available:
 
 | Suffix | Direction | 
 | ---    | ---       |
@@ -76,11 +76,9 @@ When adding a gradient the last suffix is defines the direction of the gradient.
 | *-sw   | Southeast |
 | *-sw   | Southwest |
 
-Create your own dramatic multicolored glowing web presence.
-
 ## Acknowledgements
 Promare Gradients derives is name from the movie [Promare](https://en.wikipedia.org/wiki/Promare) which features rich 
-neon gradient coloring and help to inspired the package.
+neon gradient coloring and inspired this package.
 
 
 [^1]: Bojko, A. (2013). Eye tracking the user experience: A practical guide to research. Rosenfeld. 
