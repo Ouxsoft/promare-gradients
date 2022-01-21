@@ -57,7 +57,7 @@ $tints: "75" percentage(1/$phi),
 
 // degrees make use of compass ratios using golden ratio / phi
 $degrees: (
-        "nw" : (360-360/power($phi,5)) deg, // "top-start" / "top-left" / northwest
+        "nw" : (360-360/power($phi,5)) + deg, // "top-start" / "top-left" / northwest
         "ne" : (360/power($phi,5)) + deg, // "top-end" / "top-right" / northeast
         "sw" : (360/$phi) + deg, // "bottom-start" / "bottom-left" / southwest
         "se" : (360/power($phi,2)) + deg, // "bottom-end" / "bottom-right" / southeast
