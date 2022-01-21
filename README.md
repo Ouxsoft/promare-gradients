@@ -1,7 +1,8 @@
 # Promare Gradients
 ![SASS](https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white)
 [![npm version](https://img.shields.io/npm/v/@ouxsoft/promare-gradients)](https://www.npmjs.com/package/@ouxsoft/promare-gradients)
-[![Latest Stable Version](https://img.shields.io/packagist/v/Ouxsoft/promare-gradients.svg)](https://packagist.org/packages/Ouxsoft/promare-gradients) 
+[![Packagist Version](https://img.shields.io/packagist/v/ouxsoft/promare-gradients.svg)](https://packagist.org/packages/Ouxsoft/promare-gradients) 
+[![Github Release](https://shields.io/github/v/release/ouxsoft/promare-gradients?display_name=release&include_prereleases&sort=date)](https://github.com/Ouxsoft/promare-gradients/releases)
 [![Total Downloads](https://img.shields.io/packagist/dt/Ouxsoft/promare-gradients.svg)](https://packagist.org/packages/Ouxsoft/promare-gradients)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
