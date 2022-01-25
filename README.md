@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/@ouxsoft/promare-gradients)](https://www.npmjs.com/package/@ouxsoft/promare-gradients)
 [![Packagist Version](https://img.shields.io/packagist/v/ouxsoft/promare-gradients.svg)](https://packagist.org/packages/Ouxsoft/promare-gradients) 
 [![Github Release](https://shields.io/github/v/release/ouxsoft/promare-gradients?display_name=release&include_prereleases&sort=date)](https://github.com/Ouxsoft/promare-gradients/releases)
-[![Known Vulnerabilities](https://snyk.io/test/github/Ouxsoft/promare-gradients/badge.svg)]
+[![Known Vulnerabilities](https://snyk.io/test/github/Ouxsoft/promare-gradients/badge.svg)](https://snyk.io/test/github/Ouxsoft/promare-gradients)
 [![Total Downloads](https://img.shields.io/packagist/dt/Ouxsoft/promare-gradients.svg)](https://packagist.org/packages/Ouxsoft/promare-gradients)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
